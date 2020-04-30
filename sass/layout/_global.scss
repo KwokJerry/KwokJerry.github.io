@@ -1,0 +1,38 @@
+/* Reset... */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: $font__main;
+    font-size:1rem;
+    font-weight:normal;
+    line-height:1.5;
+    overflow-x:hidden;
+}
+
+.global{
+    background: #26303e url(../img/bg/bg.png) no-repeat center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.maintenance{
+    position: relative;
+    top: 35%;
+    font-family: $font__titre2;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fa-tools{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
